@@ -74,7 +74,7 @@
 					"defaultBindingMode": "OneWay",
 					"defaultCountMode": "Request"
 				},
-				"dataSource": "ZGWP_UI5SESSION_SRV",
+				"dataSource": "myOdata",
 				"preload": true
 			}
 		},
