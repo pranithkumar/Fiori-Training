@@ -40,6 +40,15 @@
         "version": "1.52.42"
       },
       "description": "SAPUI5 Test Resources"
+    },
+    {
+      "path": "/sap/opu/odata",
+      "target": {
+        "type": "destination",
+        "name": "R4E_Sys",
+        "entryPath": "/sap/opu/odata"
+      },
+      "description": "R4E_Sys"
     }
   ],
   "sendWelcomeFileRedirect": true
