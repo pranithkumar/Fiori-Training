@@ -45,7 +45,7 @@
 	},
 	"sap.ui5": {
 		"rootView": {
-			"viewName": "FioriTraining.FioriTraining.view.View1",
+			"viewName": "FioriTraining.FioriTraining.view.S1",
 			"type": "XML"
 		},
 		"dependencies": {
@@ -109,7 +109,7 @@
 					"viewType": "XML",
 					"transition": "slide",
 					"clearControlAggregation": false,
-					"viewName": "View1"
+					"viewName": "S1"
 				}
 			}
 		}

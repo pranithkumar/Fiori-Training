@@ -1,10 +1,10 @@
-<mvc:View controllerName="FioriTraining.FioriTraining.controller.View1" xmlns:mvc="sap.ui.core.mvc"
+<mvc:View controllerName="FioriTraining.FioriTraining.controller.S1" xmlns:mvc="sap.ui.core.mvc"
 	xmlns:html="http://www.w3.org/1999/xhtml" displayBlock="true" xmlns="sap.m">
 	<App id="idAppControl">
 		<pages>
 			<Page title="{i18n>title}">
 				<content>
-					<Table id="tab1" items="{/emps}">
+					<Table id="tab1" items="{jsonMod>/}">
 						<columns>
 							<Column>
 								<header>
@@ -25,13 +25,13 @@
 						<items>
 							<ColumnListItem>
 								<cells>
-									<Label text="{empId}"/>
+									<Label text="{jsonMod>empId}"/>
 								</cells>
 								<cells>
-									<Label text="{empName}"/>
+									<Label text="{jsonMod>empName}"/>
 								</cells>
 								<cells>
-									<Label text="{empAge}"/>
+									<Label text="{jsonMod>empAge}"/>
 								</cells>
 							</ColumnListItem>
 						</items>
